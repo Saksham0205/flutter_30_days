@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_30_days/widgets/buttons.dart';
+import 'package:flutter_30_days/widgets/list_grid.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.green,
         brightness: Brightness.dark,
       ),
-      home: ButtonWidget(),
+      home: ListandGrid(),
     );
   }
 }
