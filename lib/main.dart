@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_30_days/widgets/rows_columns.dart';
+import 'package:flutter_30_days/widgets/buttons.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.green,
         brightness: Brightness.dark,
       ),
-      home: RowsandColumns(),
+      home: ButtonWidget(),
     );
   }
 }
