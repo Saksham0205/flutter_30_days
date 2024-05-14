@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_30_days/widgets/buttons.dart';
-import 'package:flutter_30_days/widgets/list_grid.dart';
+
 import 'package:flutter_30_days/widgets/snackbar.dart';
 
 void main() {
