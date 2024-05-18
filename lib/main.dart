@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'package:flutter_30_days/widgets/snackbar.dart';
+import 'package:flutter_30_days/widgets/dismissible.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.green,
         brightness: Brightness.dark,
       ),
-      home: SnackBarWidget(),
+      home: DismissibleWidget(),
     );
   }
 }
