@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_30_days/widgets/dismissible.dart';
+import 'package:flutter_30_days/widgets/drawer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.green,
         brightness: Brightness.dark,
       ),
-      home: DismissibleWidget(),
+      home: DrawerWidget(),
     );
   }
 }
