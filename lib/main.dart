@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_30_days/widgets/alert_dialog.dart';
 import 'package:flutter_30_days/widgets/drawer.dart';
 import 'package:flutter_30_days/widgets/image_widget.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.green,
         brightness: Brightness.dark,
       ),
-      home: ImageWidget(),
+      home: AlertDialogWidget(),
     );
   }
 }
