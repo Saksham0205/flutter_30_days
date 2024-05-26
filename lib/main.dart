@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_30_days/widgets/bottom_sheet.dart';
+import 'package:flutter_30_days/widgets/animated_text.dart';
 
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.green,
         brightness: Brightness.light,
       ),
-      home: BottomSheetWidget(),
+      home: AnimatedTextWidget(),
     );
   }
 }
