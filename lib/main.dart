@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_30_days/widgets/alert_dialog.dart';
-import 'package:flutter_30_days/widgets/drawer.dart';
-import 'package:flutter_30_days/widgets/image_widget.dart';
+import 'package:flutter_30_days/widgets/bottom_sheet.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -16,9 +15,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: Colors.green,
-        brightness: Brightness.dark,
+        brightness: Brightness.light,
       ),
-      home: AlertDialogWidget(),
+      home: BottomSheetWidget(),
     );
   }
 }
